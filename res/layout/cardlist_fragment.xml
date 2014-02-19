@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Deck name:"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/textViewDeckName"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Author: "
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/textViewDeckAuthorName"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Format: "
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/textViewDeckFormatName"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Colors: "
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+		</LinearLayout>
+	<ListView android:id="@+id/listViewCards"
+		android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+
+</LinearLayout>
